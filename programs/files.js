@@ -1,5 +1,5 @@
-class Program {
-  load() {
+class ProgramSource extends Program {
+  load(args) {
     var g = "1";
     if (fileSystem.pathExists("soysoup/files_counter.txt") == false) {
       fileSystem.createFile("soysoup/files_counter.txt", "0");
